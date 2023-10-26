@@ -7,23 +7,23 @@
 
 @font-face {
 	font-family: 'RooftopMono';
-	src: url(../../Mercedes/fonts/RooftopMono-Bold.ttf) format('truetype');
+	src: url(../fonts/RooftopMono-Bold.woff);
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: 'Rooftop Mono Medium';
-	src: url('../fonts/RooftopMono-Medium.ttf') format('truetype');
+	src: url(../fonts/RooftopMono-Medium.woff);
 }
 
 @font-face {
 	font-family: 'Rooftop Mono Regular';
-	src: url(../fonts/RooftopMono-Regular.ttf) format('ttf');
+	src: url(../fonts/RooftopMono-Regular.ttf);
 }
 
 @font-face {
 	font-family: 'DrukLCG';
-	src: url('https://Henov36.github.io/Mercedes/fonts/DrukWideLCG-Bolt.ttf') format('truetype');
+	src: url(../fonts/DrukWideLCG-Bold.woff);
 	font-weight: 700;
 }
 
