@@ -7,29 +7,29 @@
 
 @font-face {
 	font-family: 'Rooftop Mono';
-	src: url(./fonts/RooftopMono-Bold.ttf) ;
+	src: url(../fonts/RooftopMono-Bold.ttf) ;
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: 'Rooftop Mono Medium';
-	src: url(./fonts/RooftopMono-Medium.ttf);
+	src: url(../fonts/RooftopMono-Medium.ttf);
 }
 
 @font-face {
 	font-family: 'Rooftop Mono Regular';
-	src: url(./fonts/RooftopMono-Regular.ttf);
+	src: url(../fonts/RooftopMono-Regular.ttf);
 }
 
 @font-face {
 	font-family: 'Druk LCG';
-	src: url(./fonts/DrukWideLCG-Bold.ttf);
+	src: url(../fonts/DrukWideLCG-Bold.ttf);
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: 'Druk LCG Medium';
-	src: url(./fonts/DrukWideLCG-Medium.ttf);
+	src: url(../fonts/DrukWideLCG-Medium.ttf);
 	font-weight: 500;
 }
 
