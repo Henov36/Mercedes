@@ -6,7 +6,7 @@
 }
 
 @font-face {
-	font-family: 'RooftopMono';
+	font-family: 'Rooftop Mono';
 	src: url(../fonts/RooftopMono-Bold.woff);
 	font-weight: 700;
 }
@@ -17,21 +17,11 @@
 }
 
 @font-face {
-	font-family: 'Rooftop Mono Regular';
-	src: url(../fonts/RooftopMono-Regular.ttf);
-}
-
-@font-face {
-	font-family: 'DrukLCG';
+	font-family: 'Druk LCG';
 	src: url(../fonts/DrukWideLCG-Bold.woff);
 	font-weight: 700;
 }
 
-@font-face {
-	font-family: 'Druk LCG Medium';
-	src: url(../fonts/DrukWideLCG-Medium.ttf) format('ttf');
-	font-weight: 500;
-}
 
 .active {
 	color: var(--text-color-orange);
@@ -52,7 +42,7 @@
 body {
 	background-color: var(--body-background);
 	color: var(--text-color-orange);
-	font-family: 'RooftopMono', sans-serif;
+	font-family: 'Rooftop Mono', sans-serif;
 }
 
 

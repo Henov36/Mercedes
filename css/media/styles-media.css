@@ -487,7 +487,7 @@
 }
 
 
-/* QUOTE SECTION  */
+/* QUOTE SECTION AND WHEEL */
 
 @media (max-width:1439px) {
 	.quote__row {
@@ -589,7 +589,7 @@
 	.wheel__photo {
 		width: 100%;
 		min-width: 196px;
-		height: 196px;
+		height: 240px;
 	}
 
 	.wheel__photo img {
@@ -616,7 +616,7 @@
 	}
 
 	.wheel__photo {
-		width: auto;
+		width: 240px;
 	}
 
 	.wheel__description {

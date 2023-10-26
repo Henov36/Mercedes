@@ -11,7 +11,7 @@
 .vision span {
 	color: var(--text-color-orange);
 	text-align: center;
-	font-family: 'DrukLCG', sans-serif;
+	font-family: 'Druk LCG', sans-serif;
 	font-size: 432px;
 	font-style: normal;
 	font-weight: 700;
@@ -345,11 +345,11 @@
 }
 
 .about-masterpiece {
-	align-items: flex-start;
+	align-items: flex-start !important;
 }
 
 .about__section-masterpiece-list {
-	align-items: flex-start;
+	align-items: flex-start !important;
 }
 
 .about__section-masterpiece-card {
