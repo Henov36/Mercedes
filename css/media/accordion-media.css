@@ -1,0 +1,146 @@
+@media (max-width:1439px) {
+	.accordion-description {
+		width: 550px;
+	}
+}
+
+@media (max-width:1212px) {
+	.accordion-description {
+		width: 350px;
+	}
+
+	.accordion-content__ul {
+		margin-top: 40px;
+	}
+}
+
+@media(max-width:1024px) {
+	.accordion-number :first-child {
+		margin-right: 12px;
+	}
+
+	.accordion-content .ul-element header {
+		height: 61px;
+		font-size: 24px;
+	}
+
+	.accordion-content__ul li {
+		margin-bottom: 13px;
+	}
+
+	.accordion-content {
+		margin: 24px 0px 0px 0px;
+		position: relative;
+	}
+
+	.accordion-description {
+		width: 600px;
+	}
+
+	.accordion-content-text {
+		width: 100%;
+	}
+
+	.accordion-content__ul {
+		font-size: 16px;
+		margin-top: 80px;
+		margin-bottom: 100px;
+		width: 100%;
+	}
+
+	.accordion-content__ul li::before {
+		width: 22px;
+		height: 22px;
+	}
+
+	.accordion-right-block {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		display: flex;
+		width: auto;
+	}
+
+	.accordion-right-block img {
+		width: 167px;
+		height: 178px;
+	}
+
+	.right-block-text {
+		margin: 0;
+	}
+
+	.right-block-content {
+		flex-direction: column;
+		justify-content: space-between;
+		width: 167px;
+		border-top: 1px solid var(--text-color-orange);
+	}
+
+	.right-block-top-photo {
+		border-bottom: none;
+		margin-right: 20px;
+	}
+
+	.right-block-text :first-child {
+		margin-bottom: 16px;
+	}
+}
+
+
+@media(max-width:677px) {
+	.ul-element header {
+		height: 62px;
+		font-size: 16px;
+	}
+
+	.accordion-content {
+		margin: 0;
+		flex-direction: column;
+	}
+
+	.accordion-description {
+		font-size: 16px;
+	}
+
+	.accordion-content__ul {
+		margin: 25px auto;
+		width: fit-content;
+	}
+
+	.accordion-right-block {
+		position: static;
+		justify-content: space-around;
+	}
+
+	.right-block-text {
+		font-size: 16px;
+	}
+
+	.right-block-text :first-child {
+		margin-top: 16px;
+	}
+}
+
+@media(max-width:435px) {
+	.accordion-content__ul {
+		margin: 25px 0px;
+		width: 100%;
+	}
+
+	.accordion-right-block {
+
+		justify-content: space-between;
+	}
+}
+
+
+@media(max-width:379px){
+	.right-block-content{
+		width: 145px;
+	}
+		.accordion-right-block img{
+			width: 145px;
+			height: 155px;
+		}
+}

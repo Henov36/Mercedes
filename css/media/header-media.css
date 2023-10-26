@@ -1,0 +1,31 @@
+@media(max-width:1023px) {
+	.header {
+		display: none;
+	}
+
+	.adaptive-header {
+		display: flex;
+	}
+}
+
+@media(max-width:555px) {
+
+	.header__list-adaptive {
+		margin-top: 0px;
+	}
+
+	.header__list-adaptive li {
+		width: 100%;
+		font-size: 34px;
+	}
+
+	.adaptive-header-content {
+		padding: 0px 12px;
+	}
+}
+
+@media(max-width:379px) {
+	.header__list-adaptive li {
+		font-size: 28px;
+	}
+}
