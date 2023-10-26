@@ -6,30 +6,30 @@
 }
 
 @font-face {
-	font-family: 'Rooftop Mono';
-	src: url(../fonts/RooftopMono-Bold.ttf) ;
+	font-family: 'RooftopMono';
+	src: url(../fonts/RooftopMono-Bold.ttf) format('ttf');
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: 'Rooftop Mono Medium';
-	src: url(../fonts/RooftopMono-Medium.ttf);
+	src: url(../fonts/RooftopMono-Medium.ttf) format('ttf');
 }
 
 @font-face {
 	font-family: 'Rooftop Mono Regular';
-	src: url(../fonts/RooftopMono-Regular.ttf);
+	src: url(../fonts/RooftopMono-Regular.ttf) format('ttf');
 }
 
 @font-face {
-	font-family: 'Druk LCG';
-	src: url(../fonts/DrukWideLCG-Bold.ttf);
+	font-family: 'DrukLCG';
+	src: url(../fonts/DrukWideLCG-Bold.ttf) format('ttf');
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: 'Druk LCG Medium';
-	src: url(../fonts/DrukWideLCG-Medium.ttf);
+	src: url(../fonts/DrukWideLCG-Medium.ttf) format('ttf');
 	font-weight: 500;
 }
 
@@ -52,7 +52,7 @@
 body {
 	background-color: var(--body-background);
 	color: var(--text-color-orange);
-	font-family: 'Rooftop Mono', sans-serif;
+	font-family: 'RooftopMono', sans-serif;
 	/* cursor: none; */
 	/* cursor: zoom-in; */
 }
