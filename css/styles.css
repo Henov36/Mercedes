@@ -254,9 +254,6 @@
 
 
 /*////////////////// QUOTE SECTION \\\\\\\\\\\\\\\\ */
-
-.section__quote {}
-
 .quote__container {
 	width: fit-content;
 	margin: 0 auto;
@@ -287,24 +284,15 @@
 	margin-left: 75px;
 }
 
-.quote__first-string {}
-
 .quote__first-string img {
 	margin: 0px 40px;
 }
-
-.quote__second-string {}
-
-.quote__third-string {}
 
 .quote__third-string img {
 	margin-right: 40px;
 }
 
 /* Wheel quote  */
-
-
-.section__wheel {}
 
 .wheel__content {
 	display: flex;

@@ -344,11 +344,6 @@
 	margin-right: 10px;
 }
 
-.right-arrow {}
-
-/* Running line */
-
-.section__running-line {}
 
 .main__content {
 	display: flex;
@@ -367,8 +362,6 @@
 .main__content div:nth-child(4) {
 	margin-left: 230px;
 }
-
-.content-row {}
 
 .svg-row {
 	display: flex;

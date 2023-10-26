@@ -503,10 +503,6 @@
 		margin-left: 68px;
 		height: 60px;
 	}
-
-	.quote__fours-string span {
-		/* width: 400px; */
-	}
 }
 
 @media (max-width: 1212px) {
