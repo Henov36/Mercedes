@@ -86,11 +86,11 @@
 	align-items: center;
 	background-color: black;
 	padding: 0px 20px;
-	transition: 0.3s all ease;
+	transition: 0.5s all ease;
 }
 
 .content-transform {
-	transform: translateY(-100vh);
+	transform: translateY(-130vh);
 }
 
 

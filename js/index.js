@@ -119,7 +119,7 @@ const hoverListHandle = (list) => {
 		if (listItems[i].classList.contains('active')) {
 			listItems[i].insertBefore(span, listItems[i].firstChild)
 		}
-		listItems[i].addEventListener('mouseenter', (e) => {
+		listItems[i].addEventListener('mouseover', (e) => {
 			for (let j = 0; j < listItems.length; j++) {
 				listItems[j].classList.remove('active')
 			}

@@ -167,9 +167,10 @@
 		font-size: 19px;
 		width: 100%;
 	}
-		.right-side img {
+
+	.right-side img {
 		height: 100%;
-		}
+	}
 
 	.right-side {
 		justify-content: space-between;
@@ -262,6 +263,10 @@
 
 	.last__two {
 		display: none !important;
+	}
+
+	.left-side {
+		width: fit-content;
 	}
 
 	.left-side-text {
@@ -450,7 +455,7 @@
 		margin: 0 auto;
 	}
 
-	
+
 
 	.slide__footer {
 		display: flex;
@@ -522,6 +527,4 @@
 	}
 }
 
-@media(max-width:379px){
-	
-}
+@media(max-width:379px) {}
