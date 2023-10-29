@@ -130,6 +130,7 @@
 
 	.one-to-leven__block {
 		margin-top: 30px;
+		align-items: baseline;
 	}
 
 	.one-to-leven__block div {
