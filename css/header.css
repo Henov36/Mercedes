@@ -23,10 +23,10 @@
 	align-items: center;
 }
 
-.header__element a:hover {
+/* .header__element a:hover {
 	color: var(--text-color-orange);
 	transition: 0.5 all ease-in-out;
-}
+} */
 
 
 .header__element a {

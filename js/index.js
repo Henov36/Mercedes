@@ -1,11 +1,19 @@
 'use strick'
 // Header
 
+
+const buttons = document.querySelectorAll('.button')
+buttons.forEach((e) => {
+
+	e.addEventListener('click', (e) => {
+		e.preventDefault()
+	})
+})
+
 const headerButton = document.querySelector('.header-button')
 const headerButtonCross = headerButton.querySelector('img')
 const headerButtonOpen = headerButton.querySelector('svg')
 const adaptiveHeader = document.querySelector('.adaptive-header-content')
-
 
 
 headerButton.addEventListener('click', () => {
@@ -19,6 +27,18 @@ headerButton.addEventListener('click', () => {
 
 const cursorDot = document.querySelector('.cursor-dot');
 const cursorOutline = document.querySelector('.cursor-outline');
+const hoverLinks = document.querySelectorAll('a')
+const hoversLi = document.querySelectorAll('.hover-li')
+const ulElements = document.querySelectorAll('.ul-element')
+
+
+
+
+
+
+// hoverCursorOnElem(ulElementHeader)
+
+
 if (window.innerWidth < 1024) {
 	console.log('x');
 	document.body.style.cursor = 'auto'
@@ -42,6 +62,80 @@ if (window.innerWidth < 1024) {
 			left: `${posX}px`,
 			top: `${posY}px`
 		}, { duration: 200, fill: 'forwards' })
+	})
+	const hoverCursorOnElem = (elems) => {
+		elems.forEach((e) => {
+			e.addEventListener('mouseover', () => {
+				e.style.position = 'relative'
+				e.style.zIndex = '101'
+				e.style.color = 'var(--text-color-orange)'
+				e.style.cursor = 'none'
+				cursorDot.style.width = '15px'
+				cursorDot.style.height = '15px'
+				cursorOutline.style.width = '50px'
+				cursorOutline.style.height = '50px'
+				cursorOutline.style.backgroundColor = 'white'
+
+			})
+			e.addEventListener('mouseout', () => {
+				e.style.color = 'var(--text-color-orange-disabled)'
+				cursorDot.style.width = '10px'
+				cursorDot.style.height = '10px'
+				cursorOutline.style.width = '80px'
+				cursorOutline.style.height = '80px'
+				cursorOutline.style.backgroundColor = 'transparent'
+			})
+		})
+	}
+	hoverCursorOnElem(buttons)
+	hoverCursorOnElem(hoverLinks)
+
+
+	ulElements.forEach((e) => {
+		const accordionHeader = e.querySelectorAll('header')
+		accordionHeader.forEach((e) => {
+			e.addEventListener('mouseover', () => {
+				e.style.position = 'relative'
+				e.style.zIndex = '101'
+				e.style.cursor = 'none'
+				cursorDot.style.width = '0px'
+				cursorDot.style.height = '0px'
+				cursorOutline.style.width = '70px'
+				cursorOutline.style.height = '70px'
+				cursorOutline.style.backgroundColor = 'white'
+			})
+			e.addEventListener('mouseout', () => {
+				cursorDot.style.width = '10px'
+				cursorDot.style.height = '10px'
+				cursorOutline.style.width = '80px'
+				cursorOutline.style.height = '80px'
+				cursorOutline.style.backgroundColor = 'transparent'
+			})
+		})
+
+		// accordionHeader.forEach((e) => {
+		// 	e.addEventListener('mouseover', () => {
+		// 		hoverCursorOnElem(e)
+		// 	})
+		// })
+	})
+
+	hoversLi.forEach((e) => {
+		e.addEventListener('mouseover', () => {
+			e.style.position = 'relative'
+			e.style.zIndex = '101'
+			e.style.cursor = 'none'
+			cursorDot.style.width = '0px'
+			cursorDot.style.height = '0px'
+			cursorOutline.style.width = '30px'
+			cursorOutline.style.height = '30px'
+		})
+		e.addEventListener('mouseout', () => {
+			cursorDot.style.width = '10px'
+			cursorDot.style.height = '10px'
+			cursorOutline.style.width = '80px'
+			cursorOutline.style.height = '80px'
+		})
 	})
 }
 
@@ -235,14 +329,7 @@ accordionShowContent(accordionBotList)
 
 //button event
 
-const buttons = document.querySelectorAll('.button')
 
-buttons.forEach((e) => {
-
-	e.addEventListener('click', (e) => {
-		e.preventDefault()
-	})
-})
 
 
 //Email Validate

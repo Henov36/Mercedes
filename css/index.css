@@ -123,9 +123,9 @@ main {
 	font-weight: 700;
 	line-height: 100%;
 	background: transparent;
-	color: var(--text-color-orange);
+	color: var(--text-color-orange-disabled);
 	text-transform: uppercase;
-	border-bottom: 1px solid var(--text-color-orange);
+	border-bottom: 2px solid var(--text-color-orange);
 	padding-bottom: 3px;
 	cursor: pointer;
 }
@@ -136,6 +136,7 @@ main {
 	background-color: var(--text-color-orange);
 	position: relative;
 	z-index: 100;
+	/* transition: all 0.3s ease; */
 }
 
 
@@ -145,6 +146,7 @@ main {
 	border: 2px solid var(--text-color-orange);
 	position: relative;
 	z-index: 100;
+	transition: all 0.3s ease;
 }
 
 .cursor-dot,
