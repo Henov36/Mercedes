@@ -24,7 +24,7 @@
 
 .section__future a {
 	text-decoration: none;
-	color: var(--text-color-orange);
+	color: var(--text-color-orange-disabled);
 	border-bottom: 2px solid var(--text-color-orange);
 	width: fit-content;
 	height: 20px;

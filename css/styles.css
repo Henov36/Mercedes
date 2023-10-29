@@ -114,8 +114,8 @@
 
 
 /*////////////////// SECTION SCROLL TEXT \\\\\\\\\\\\\\\\*/
-					
-						
+
+
 
 .section__scroll-text {
 	position: relative;
@@ -331,8 +331,12 @@
 }
 
 .wheel__description a {
-	margin-top: 32px;
-	color: var(--text-color-orange);
+	margin-top:32px;
+	padding-bottom: 2px;
+	color: var(--text-color-orange-disabled);
+	text-decoration: none;
+	border-bottom: 1px solid var(--text-color-orange);
+	width: fit-content;
 }
 
 
@@ -370,7 +374,7 @@
 }
 
 .about-footer a {
-	color: var(--text-color-orange);
+	color: var(--text-color-orange-disabled);
 	text-decoration: none;
 	border-bottom: 1px solid var(--text-color-orange);
 }
@@ -395,7 +399,7 @@
 
 
 .section__news-container header a {
-	color: var(--text-color-orange);
+	color: var(--text-color-orange-disabled);
 	text-decoration: none;
 	border-bottom: 1px solid var(--text-color-orange);
 }
